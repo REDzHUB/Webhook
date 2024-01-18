@@ -41,9 +41,7 @@ function Webhook:Post()
     return SendData;
 end;
 
-function Webhook:Edit(content | table)
-    assert(content, "Attempt to call Webhook:Edit with missing arguments");
-
+function Webhook:Edit(content)
     self.Content = content;
 end;
 
