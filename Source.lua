@@ -9,7 +9,7 @@ function Webhook.new(Token, Body)
     Headers = {
       ["Content-Type"] = "application/json",
     },
-    Body = HttpService:JSONEncode(Body),
+    Body = (Body),
   })
 end
 
